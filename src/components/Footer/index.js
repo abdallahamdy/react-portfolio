@@ -5,7 +5,7 @@ function Footer () {
         <div className="footer-section">
             <footer>
               <div className="text-center p-4">
-                    <a className="text-reset fw-bold" href="https://github.com/abdallahamdy">Abdalla's Github</a>
+                    <a className="text-reset fw-bold" href="https://github.com/abdallahamdy" target="_blank"><i className="icon bi-github"></i></a>
                 </div>
             </footer>
         </div>
