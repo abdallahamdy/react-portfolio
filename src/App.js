@@ -5,6 +5,8 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -40,6 +42,7 @@ function App() {
           <Resume></Resume>
         }
       </main>
+      <Footer></Footer>
     </div>
     
   );

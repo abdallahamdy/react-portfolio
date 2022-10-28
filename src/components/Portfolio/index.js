@@ -1,40 +1,52 @@
 import React from 'react';
 
 function Portfolio () {
-    const [projects] = [
+    const projects = [
         {
           projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          githubUrl: "https://github.com/abdallahamdy/run-buddy",
+          appUrl: "https://abdallahamdy.github.io/run-buddy/"
         },
         {
-          projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          projectName: "Sports Spot",
+          githubUrl: "https://github.com/abdallahamdy/sports-spot",
+          appUrl: "https://abdallahamdy.github.io/sports-spot/"
         },
         {
-          projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          projectName: "Password Generator",
+          githubUrl: "https://github.com/abdallahamdy/password-generator",
+          appUrl: "https://abdallahamdy.github.io/password-generator/"
         },
         {
-          projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          projectName: "Note It Down",
+          githubUrl: "https://github.com/abdallahamdy/note-it-down",
+          appUrl: "https://desolate-cove-53348.herokuapp.com"
         },
         {
-          projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          projectName: "Weather App",
+          githubUrl: "https://github.com/abdallahamdy/weatherapp",
+          appUrl: "https://abdallahamdy.github.io/weatherapp/"
         },
         {
-          projectName: "Run Buddy",
-          githubUrl: "",
-          appUrl: ""
+          projectName: "JS Coding Quiz",
+          githubUrl: "https://github.com/abdallahamdy/js-coding-quiz",
+          appUrl: "https://abdallahamdy.github.io/js-coding-quiz/"
         }
     ]
     return (
-        <div>Portfolio</div>
+        <div className="projects-div">
+            {projects.map((project) => (
+                <li key={project.projectName} style={{listStyleType: "none"}} >
+                    <div className="card" style={{width: "18rem"}}>
+                        <div className="card-body">
+                        <h5 className="card-title">{project.projectName}</h5>
+                        <a href={project.githubUrl} className="card-link">Github Repo</a>
+                        <a href={project.appUrl} className="card-link">App Link</a>
+                        </div>
+                    </div>
+                </li>
+            ))}
+        </div>
     );
 };
 
