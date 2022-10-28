@@ -13,8 +13,11 @@ https://github.com/abdallahamdy/react-profile
 ## Deployed Application
 https://abdallahamdy.github.io/react-portfolio/
 
+## Screenshot:
+![Alt text](./src/assets/app_screenshot.png?raw=true "Abdalla's portfolio website screenshot")
+
 ## Author:
-Abdalla Hamdy% 
+Abdalla Hamdy
 
 ## Notes:
 Used module 20 content for some of the logic.
