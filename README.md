@@ -1,3 +1,24 @@
+# react-profile
+
+## Purpose
+A portfolio website created using react.
+
+## Built with: 
+* nodeJS
+* ReactJS
+
+## Repository:
+https://github.com/abdallahamdy/react-profile
+
+## Deployed Application
+https://abdallahamdy.github.io/react-portfolio/
+
+## Author:
+Abdalla Hamdy% 
+
+## Notes:
+Used module 20 content for some of the logic.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
