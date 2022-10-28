@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer () {
     return (
-        <div>
+        <div className="footer-section">
             <footer>
               <div className="text-center p-4">
                     © 2022 Copyright

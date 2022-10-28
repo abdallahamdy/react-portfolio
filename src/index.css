@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, #app, #app>div {
+  height: 100%;
+}
+
+main {
+  width: 70%;
+  height: 65vh;
+  background-color: grey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+
+.nav-buttons {
+  margin: 10px;
+}
+
+.header-section {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 22vh;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: center;
+}
+
+.title-header {
+  /* margin: 10px; */
+  margin-top: 30px;
+  color: #0275d8;
+}
+
+.footer-section {
+  height: 13vh;
+  width: 70%;
+}
+
+.nav-title {
+  color: black;
+}
+
+.about-text {
+
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

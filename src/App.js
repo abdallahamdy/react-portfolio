@@ -16,18 +16,20 @@ function App() {
   const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
-    <div>
-      <Header></Header>
-      <Navigation
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-      ></Navigation>
+    <div className="content">
+      <div className="header-section">
+        <Header></Header>
+        <Navigation
+          aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+          portfolioSelected={portfolioSelected}
+          setPortfolioSelected={setPortfolioSelected}
+          resumeSelected={resumeSelected}
+          setResumeSelected={setResumeSelected}
+        ></Navigation>
+      </div>
       <main>
         {aboutSelected && 
             <About></About>
