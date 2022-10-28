@@ -47,7 +47,7 @@ function Portfolio () {
                         <div className="card" key={project.projectName} style={{width: "18rem"}}>
                             <img
                                 src={require(`../../assets/${project.pngName}.png`).default}
-                                class="card-img-top"></img>
+                                className="card-img-top"></img>
                             <div className="card-body">
                             <h5 className="card-title">{project.projectName}</h5>
                             <a href={project.githubUrl} className="card-link">Github Repo</a>
