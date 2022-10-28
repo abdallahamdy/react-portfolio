@@ -34,18 +34,19 @@ function Portfolio () {
         }
     ]
     return (
-        <div className="projects-div">
-            {projects.map((project) => (
-                <li key={project.projectName} style={{listStyleType: "none"}} >
-                    <div className="card" style={{width: "18rem"}}>
-                        <div className="card-body">
-                        <h5 className="card-title">{project.projectName}</h5>
-                        <a href={project.githubUrl} className="card-link">Github Repo</a>
-                        <a href={project.appUrl} className="card-link">App Link</a>
+        <div className="portfolio-section">
+            <h1 className="nav-title">Portfolio</h1>
+            <div className="projects-div" >
+                {projects.map((project) => (
+                        <div className="card" key={project.projectName} style={{width: "18rem"}}>
+                            <div className="card-body">
+                            <h5 className="card-title">{project.projectName}</h5>
+                            <a href={project.githubUrl} className="card-link">Github Repo</a>
+                            <a href={project.appUrl} className="card-link">App Link</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            ))}
+                ))}
+            </div>
         </div>
     );
 };
