@@ -87,6 +87,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .card {
